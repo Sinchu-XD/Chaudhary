@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", "") # youtube song api key, get it from https://t.me/AloneHuVai
+API_KEY = getenv("API_KEY", "NxGBNexGenBots31bc9e") # youtube song api key, get it from https://t.me/AloneHuVai
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -26,11 +26,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7552579717"))
+OWNER_ID = int(getenv("OWNER_ID", "7953559026"))
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","AloneHuVai")
+OWNER_USERNAME = getenv("OWNER_USERNAME","choudhary12000")
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "masoomX_musicbot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -40,15 +40,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamAloneOp/AloneApiMusicBot",
+    "https://github.com/ruchi5134/Ruchimusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AloneXSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/choudharykiduniya")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/choudharykiduniya")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")

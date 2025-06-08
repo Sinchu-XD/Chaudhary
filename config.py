@@ -91,7 +91,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7o7i4j.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/q3qusy.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/vxp6t1.jpg"

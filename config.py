@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", "NxGBNexGenBots31bc9e") # youtube song api key, get it from https://t.me/AloneHuVai
+API_KEY = getenv("API_KEY", "NxGBNexGenBots31bc9e") # youtube song apikey, get it from https://t.me/AloneHuVai
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -28,7 +28,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", "7953559026"))
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","choudhary12000")
+OWNER_USERNAME = getenv("OWNER_USERNAME","12000")
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "masoomX_musicbot")
 
@@ -40,7 +40,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ruchi5134/Ruchimusic",
+    "https://github.com/arvind021/Chaudhary",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
 GIT_TOKEN = getenv(
